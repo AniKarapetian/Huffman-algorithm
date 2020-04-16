@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Huffman</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+        <div class="encode-block">
+        	<input id="encode-input" type="text" placeholder="Enter the text to encode" /></br>
+        	<button class = 'btn' id='submit'>Ok</button>
+        	<button class = 'btn' type="reset" id = 'reset'>Reset</button></br>
+        	<p> Initial text:</p><textarea readonly id='initial-encode-text'></textarea>
+        	<p>Initial text in Binary code:</p> <textarea readonly  id = 'binary-text'></textarea>
+       		<p>After coding to Huffman code: </p><textarea readonly  id = 'encode-result'></textarea>
+		</div>
+			<table id = 'table'></table>	   
+    <script src="../p5.min.js"></script>
+	<script src="huffman.js"></script>
+	<script src="graphic.js"></script>
+	</body>
+</html>
+
+
